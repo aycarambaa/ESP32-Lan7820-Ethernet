@@ -31,3 +31,6 @@ In the previous version, I used PoE with the LTC4267, but I wasn’t completely 
 
 ### i2c accelerator
 I added an extra footprint for the LTC4311 chip on the board to extend the range of the I2C bus. This allows for more reliable communication over longer distances.
+
+# Software
+The software includes a YAML file that contains the configuration for Ethernet and the I2C pins.
