@@ -1,0 +1,16 @@
+ethernet:
+  type: LAN8720
+  mdc_pin: GPIO23
+  mdio_pin: GPIO18
+  clk_mode: GPIO17_OUT
+  phy_addr: 0
+  power_pin: GPIO4
+
+  manual_ip:
+    static_ip: 192.168.0.61
+    gateway: 192.168.0.1
+    subnet: 255.255.255.0   
+
+i2c:
+  sda: 33
+  scl: 32
